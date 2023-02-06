@@ -1,0 +1,24 @@
+.Tthree{
+    display: flex;
+    flex-direction: column;
+    color:red;
+}
+.botao2tel3{
+    position: absolute;
+    background-color: #fff;
+    color: #92E3A9;
+    margin-top: 650px;
+    margin-left: 171px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    height: 23px;
+    width: 38px;
+}
+.botao2tel3:hover{
+    color: #A1C3FC;
+}

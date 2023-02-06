@@ -17,3 +17,20 @@
   box-sizing: border-box;
   background-color: #fff;
 }
+
+nav .liNav{
+  padding-left: 0;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 150px;
+  list-style: none;
+}
+.liNav li{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: #fff;
+  display: inline-block;
+  margin: 5px;
+}

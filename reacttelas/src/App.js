@@ -10,8 +10,8 @@ import TelasThree from './components/TelasThree';
 function App() {
 
   const stages = [
-   {id: 1 , stage: "start"},
-   {id: 2, stage: "two"},
+   {id:1, stage: "start"},
+   {id:2, stage: "two"},
    {id:3, stage: "three"} 
   ]
 
@@ -32,6 +32,13 @@ function App() {
     <div className="App">
       <div className='corp'>
         <div className='dentro'>
+          <nav >
+            <ul className='liNav'>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </nav>
           {stg === "start" && <TelasOne inicio={inicio}/>}
           {stg === "two" && <TelasTwo telTwo={telTwo}/>}
           {stg === "three" && <TelasThree telThree={telThree}/>}
