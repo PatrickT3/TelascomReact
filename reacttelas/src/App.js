@@ -32,11 +32,20 @@ function App() {
     <div className="App">
       <div className='corp'>
         <div className='dentro'>
-          <nav >
+          <nav>
             <ul className='liNav'>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
+              <li 
+                  className={stg === 'start'? 'selc' : 'padrao'} 
+                  onClick={() => setStg(stages[0].stage)}>
+              </li>
+              <li 
+                  className={stg === 'two'? 'selc' : 'padrao'} 
+                  onClick={() => setStg(stages[1].stage)}>
+              </li>
+              <li 
+                  className={stg === 'three'? 'selc' : 'padrao'} 
+                  onClick={() => setStg(stages[2].stage)}>
+              </li>
             </ul>
           </nav>
           {stg === "start" && <TelasOne inicio={inicio}/>}
