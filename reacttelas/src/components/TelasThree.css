@@ -1,7 +1,6 @@
 .Tthree{
     display: flex;
     flex-direction: column;
-    color:red;
 }
 .botao2tel3{
     position: absolute;

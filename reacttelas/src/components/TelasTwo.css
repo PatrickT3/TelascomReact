@@ -1,7 +1,6 @@
 .Ttwo{
     display: flex;
     flex-direction: column;
-    color:red;
 }
 .botao2tel2{
     position: absolute;

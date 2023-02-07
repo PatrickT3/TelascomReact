@@ -1,7 +1,30 @@
+.imgem{
+    height: 300px;
+    width: 300px;
+    margin:auto;
+}
+.textTelaOne h1{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.textTelaOne p{
+    height: 46px;
+    width: 299px;
+    margin:auto;
+    /*------------------*/
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
 .Tone{
     display: flex;
     flex-direction: column;
-    color:red;
 }
 .botao2{
     position: absolute;
